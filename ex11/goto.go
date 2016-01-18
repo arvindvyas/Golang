@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	i := 0
-  Print_0_To_5:
+Print_0_To_5:
 	fmt.Println(i)
 
 	i++
@@ -14,7 +14,7 @@ func main() {
 	}
 	goto Print_0_To_5
 
-  Escape:
+Escape:
 	fmt.Println("Printed 0 to 5 loop")
 
 }

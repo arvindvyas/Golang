@@ -1,21 +1,16 @@
-package main 
-
+package main
 
 import "fmt"
 
+func main() {
 
-func main(){
+	for i := 1; i <= 10; i++ {
 
-for i := 1; i <= 10; i ++ {
-  
-for j:= 1; i >= j; j++ { 
-  fmt.Print("*")
+		for j := 1; i >= j; j++ {
+			fmt.Print("*")
 
+		}
+
+		fmt.Println("")
+	}
 }
-
-fmt.Println("")
-}
-}
-
-
-

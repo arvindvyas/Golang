@@ -2,13 +2,14 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
-  // Multiple statements seprated by ;
-  fmt.Printf("Hello "); fmt.Printf("World\n")
+	// Multiple statements seprated by ;
+	fmt.Printf("Hello ")
+	fmt.Printf("World\n")
 
-  // Single line statement 
+	// Single line statement
 
-  fmt.Printf("Learning Go\n")
+	fmt.Printf("Learning Go\n")
 
 }
